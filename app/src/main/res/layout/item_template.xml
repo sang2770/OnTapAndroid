@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="clip_horizontal"
+    android:background="@color/white"
+    android:weightSum="10"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSearch"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:text="Nguyễn Văn Sang"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TxtRoom"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:text="Phòng: 401"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_gravity="end"
+        android:textAlignment="textEnd"
+        android:id="@+id/TxtDonGia"
+        android:layout_weight="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="2.500.000"/>
+
+</LinearLayout>
